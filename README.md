@@ -70,15 +70,33 @@ So, I did this analysis on my own as follows, and this was how SPX moved after t
 Again, EViews was used.
 
 #### Unit root test
+My hard data index and soft data index has no unit root so that I concluded that they are *stationary*, where as US Real GDP YoY turned out to be difference stationary (because, surprisingly, differencing the data yields a stationary time-series data).
+
 ![hard_data_index_dickey_fuller_unit_root_test](hard_data_index_dickey_fuller_unit_root_test.jpg)
 
 
 #### Cointegration test
+I found that both pairs of (my hard data index and GDP YoY) and  (soft data index and GDP YoY) are cointegrated, allowing me saftely to move on VAR analysis. If not cointegrated, I would have to differencing my data to build a VAR model.
+
 ![hard_data_index_vs_us_real_gdp_cointegration_test](hard_data_index_vs_us_real_gdp_cointegration_test.jpg)
 
 
-#### Granger Causality test
+#### Granger Causality test and VAR Analysis
+I argue that two indices have statistical reliabilities in terms of causality as follows:
+
+- Change in Hard data index causes change in US Real GDP YoY Monthly at the significance level of 0.01% for the next 1 through 4 months. (NOT vice versa)
+- Change in Soft data index causes change in US Real GDP YoY Monthly at the significance level of 1% for the next 1 through 4 months. (NOT vice versa)
+
+**Granger Causality**
 ![hard_data_index_causes_us_real_gdp_granger_test](hard_data_index_causes_us_real_gdp_granger_test.jpg)
+
+**VAR Analysis**
+Denoting US Real GDP Monthly by **GDP** and Hard Data Index(normalized) by **H**, we can set a model that:
+GDPt = 0.51GDPt-1 + 0.30GDPt-2 + 0.18Ht-1 + 0.11Ht-2 + 0.42 + et1.
+
+![var](var_analysis.jpg)
+
+
 
 
 ### An application in Asset Allocation
