@@ -57,15 +57,17 @@ Again, `WHY` do you need to create your own Hard data index and Soft data index 
 
 It was needed because I wanted to make a decision about my betting size (invesetment weights). It all began from this research article on March 28, 2017, ["Does Data Confusion Equal Forecast Confusion?"](https://research.stlouisfed.org/publications/economic-synopses/2017/03/28/does-data-confusion-equal-forecast-confusion/) by St. Louis Fed. Market parcitipants started to debate on 'Hard data vs Soft data' *only after* this research was released. See a [Forbes' posting](https://www.forbes.com/sites/scottanderson/2017/05/01/the-hard-vs-soft-data-debate-rages-on/#6719103f52a1) on May 1, 2017. It's passed more than one month, a very long time, and it was still going on.
 
-- Curious about how the authour's conclusion in the [Forbes' posting](https://www.forbes.com/sites/scottanderson/2017/05/01/the-hard-vs-soft-data-debate-rages-on/#6719103f52a1)? It was "I think the truth is somewhere in between.", which I personally take no conclusion at all because it does not extract actionable value from its analysis.
+- Curious about how the authour's conclusion in the [Forbes' posting](https://www.forbes.com/sites/scottanderson/2017/05/01/the-hard-vs-soft-data-debate-rages-on/#6719103f52a1)? It was "*I think the truth is somewhere in between.*", which I personally take as *no conclusion* at all because it does not extract actionable value from its analysis. How do you adjust your portfolio with this conclusion confidently? How can you explain your trades to your client confidently?
 
 What do you have to do? First of all, you have to recognize it is an important issue. Second of all, you have to be able to analyze on your own (or at least be well-versed enough to ask it internally). Third of all, you can draw a conclusion from the analysis with other evidences, either qualitatively or quantitatively and holistically.
 
-So, I did this analysis as below on my own.
+So, I did this analysis on my own as follows, and this was how SPX moved after the big and length debate in 2Q17:
+
+![SPX](spx.png)
 
 
 ### Statistical techniques applied
-Again, EViews is used.
+Again, EViews was used.
 
 #### Unit root test
 ![hard_data_index_dickey_fuller_unit_root_test](hard_data_index_dickey_fuller_unit_root_test.jpg)
