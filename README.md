@@ -88,9 +88,11 @@ I argue that two indices have statistical reliabilities in terms of causality as
 - Change in Soft data index causes change in US Real GDP YoY Monthly at the significance level of 1% for the next 1 through 4 months. (NOT vice versa)
 
 **Granger Causality**
+
 ![hard_data_index_causes_us_real_gdp_granger_test](hard_data_index_causes_us_real_gdp_granger_test.jpg)
 
 **VAR Analysis**
+
 Denoting US Real GDP Monthly by **GDP** and Hard Data Index(normalized) by **H**, we can set a model that:
 GDPt = 0.51GDPt-1 + 0.30GDPt-2 + 0.18Ht-1 + 0.11Ht-2 + 0.42 + et1.
 
