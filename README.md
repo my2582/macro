@@ -1,4 +1,4 @@
-# Macro Analyses for Portfolio Management
+# Macro Analyses (Econometrics) for Portfolio Management 
 
 I created the following two indicators to make a better investment decision.
 - Real investment cycle indicators for U.S, Europe and Japan
@@ -9,7 +9,7 @@ Statistical techniques applied are:
 - Dickey-Fuller unit root test
 - Cointegration test
 - Granger Causality test
-- VAR Analysis
+- VAR (Vector Autoregression) Analysis Analysis
 - PCA Analysis
 
 I used [EViews](https://www.eviews.com/home.html), a well-known statistical package for econometrics, for these analyses.
@@ -91,7 +91,7 @@ I argue that two indices have statistical reliabilities in terms of causality as
 
 ![hard_data_index_causes_us_real_gdp_granger_test](hard_data_index_causes_us_real_gdp_granger_test.jpg)
 
-**VAR Analysis**
+**VAR (Vector Autoregression) Analysis**
 
 Denoting US Real GDP Monthly by **GDP** and Hard Data Index(normalized) by **H**, we can set a model that:
 GDPt = 0.51GDPt-1 + 0.30GDPt-2 + 0.18Ht-1 + 0.11Ht-2 + 0.42 + et1.
